@@ -1,0 +1,36 @@
+{
+    "manifestVersion": 1,
+    "id": "wanted-solutions-azdo-extension-release-management",
+    "publisher": "WANTEDsolutions",
+    "version": "0.1.9",
+    "name": "WANTED - Repository Tags",
+    "description": "Azure DevOps extension for release management.",
+    "baseUri": "https://localhost:8000",
+    "categories": [
+        "Azure Repos"
+    ],
+    "targets": [{
+            "id": "Microsoft.VisualStudio.Services"
+    }],
+    "scopes": [
+        "vso.code"
+    ],
+    "icons": {
+        "default": "logo.png"
+    },
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "files": [
+        {
+            "path": "public",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ]
+}

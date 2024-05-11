@@ -1,0 +1,35 @@
+{
+    "manifestVersion": 1,
+    "id": "wanted-solutions-azdo-extension-release-management",
+    "publisher": "wanted-solutions",
+    "version": "0.2.38",
+    "name": "WANTED - Repository Tags",
+    "description": "Azure DevOps extension for advanced search of repository tags.",
+    "categories": [
+        "Azure Repos"
+    ],
+    "targets": [{
+            "id": "Microsoft.VisualStudio.Services"
+    }],
+    "scopes": [
+        "vso.code"
+    ],
+    "icons": {
+        "default": "logo.png"
+    },
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "files": [
+        {
+            "path": "public",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ]
+}
